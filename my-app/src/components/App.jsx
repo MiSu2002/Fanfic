@@ -1,8 +1,9 @@
 import React from 'react';
+import Header from './header';
 
 function App(){
-    return( <div>
-        Hello
+    return( <div className='main container-fluid p-0'>
+        <Header/>
     </div>
     );
 }

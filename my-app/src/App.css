@@ -1,0 +1,85 @@
+@font-face{
+    font-family: Righteous;
+    src: url('../public/fonts/Righteous/Righteous-Regular.ttf');
+}
+
+@font-face{
+    font-family: Montserrat;
+    src: url('../public/fonts/Montserrat_Alternates/MontserratAlternates-Medium.ttf');
+}
+
+@font-face{
+    font-family: Nautigal;
+    src: url('../public/fonts/The_Nautigal/TheNautigal-Regular.ttf');
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 20, 20);
+    overflow-x: hidden;
+}
+
+.xs-img{
+    background-image: url('../public/images/header-images/xs-screen.jpg');
+    background-size: contain;
+  background-repeat: no-repeat;
+  height: 40rem;
+}
+
+.sm-img{
+    background-image: url('../public/images/header-images/sm-screen.png');
+    background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.md-img{
+    background-image: url('../public/images/header-images/md-screen.jpg');
+    background-size: 100%;
+  background-repeat: no-repeat;
+  height: 40rem;
+}
+
+.lg-img{
+    background-image: url('../public/images/header-images/lg-screen.jpg');
+    background-size: 100%;
+  background-repeat: no-repeat;
+  height: 45rem;
+}
+
+.xl-img{
+    background-image: url('../public/images/header-images/xl-screen.jpeg');
+    background-size: 100%;
+  background-repeat: no-repeat;
+  height: 50rem;
+}
+
+.xxl-img{
+    background-image: url('../public/images/header-images/xl-screen.jpeg');
+    background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.content{
+    padding: 5%;
+}
+
+.header h1{
+    text-align: center;
+    color: #fff;
+    font-family: Montserrat;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 3.5rem;
+}
+
+.heading{
+    background-color: rgba(0, 0, 0, 0.523);
+  }
+  
+  .logo{
+    font-family: Righteous;
+    color: #fff;
+    font-size: 3rem;
+    flex-grow: 0 !important;
+  }
