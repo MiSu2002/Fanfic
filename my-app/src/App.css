@@ -26,35 +26,40 @@ body,html{
 }
 
 .xs-img{
-    background-image: url('../public/images/header-images/xs-screen.jpg');
-    background-size: contain;
+    background: url('../public/images/header-images/xs-screen.jpg') rgba(184, 95, 247, 0.273);
+    background-size: cover;
+    background-blend-mode: multiply;
   background-repeat: no-repeat;
-  height: 40rem;
+  height: 50vh;
   box-shadow: 0 0 10px 5px rgba(15, 13, 13, 0.524);
 }
 
 .sm-img{
-    background-image: url('../public/images/header-images/sm-screen.png');
-    background-size: 100%;
+    background: url('../public/images/header-images/xs-screen.jpg') rgba(184, 95, 247, 0.273);
+    background-blend-mode: multiply;
+    background-size: cover;
   background-repeat: no-repeat;
+  height: 70vh;
   box-shadow: 0 0 10px 5px rgba(15, 13, 13, 0.524);
 }
 
 .md-img{
-    background-image: url('../public/images/header-images/md-screen.jpg');
-    background-size: 100%;
+    background: url('../public/images/header-images/xs-screen.jpg') rgba(184, 95, 247, 0.273);
+    background-blend-mode: multiply;
+    background-size: cover;
   background-repeat: no-repeat;
-  height: 40rem;
+  height: 100vh;
   box-shadow: 0 0 10px 5px rgba(15, 13, 13, 0.524);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.624);
 }
 
-.lg-img{
+/* .lg-img{
     background-image: url('../public/images/header-images/lg-screen.jpg');
     background-size: 100%;
   background-repeat: no-repeat;
   height: 45rem;
   box-shadow: 0 0 10px 5px rgba(15, 13, 13, 0.524);
-}
+} */
 
 .xl-img{
     background-image: url('../public/images/header-images/xl-screen.jpeg');
@@ -79,7 +84,7 @@ body,html{
 }
 
 .heading{
-    background-color: rgba(20, 7, 31, 0.523);
+    background-color: rgba(14, 8, 20, 0.636);
     position: fixed;
     width: 100%;
     z-index: 99;
