@@ -17,7 +17,17 @@ function firstBody(){
                 <div className='me-5'>BL</div>
                 <div className='ms-5'>romcom</div>
             </div> */}
-            <div className='description'>You, CEO of Hang Electronics, a successful businesswoman at the age of 25, had never experienced love cause of a busy schedule. You were committed not to falling in love with anyone until you found yourself engaged in an endless loop of love and lust after involving in an affair with two handsome stars from a popular boy band group.</div>
+            <div className='description d-flex justify-content-center text-center'>You, CEO of Hang Electronics, a successful businesswoman at the age of 25, had never experienced love cause of a busy schedule. You were committed not to falling in love with anyone until you found yourself engaged in an endless loop of love and lust after involving in an affair with two handsome stars from a popular boy band group.</div>
+            <div className='row'>
+            <div className='col-6 d-flex justify-content-end'>
+            <div className='buttons'>Read Now</div>
+            </div>
+            <div className='col-6 d-flex justify-content-start'>
+            <div className='buttons'>
+                <div className='add'><p className='readlist'>Readlist</p></div>
+                </div>
+            </div>
+            </div>
             </section>
         </div>
     
